@@ -3,4 +3,27 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.imagem-logo{
+    margin: 10px;
+    width: 5%;
+}
+.navegacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+.lista-navegacao{
+    display: flex;
+    gap: 19px;
+}
+.itens-lista-navegacao{
+    font-size: 20px;
 }

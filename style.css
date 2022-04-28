@@ -26,4 +26,44 @@ body{
 }
 .itens-lista-navegacao{
     font-size: 20px;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+.itens-lista-navegacao:hover{
+    cursor: pointer;
+    color: gold;
+    padding: 5px;
+}
+.principal{
+    margin: 50px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.conteudo-primario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titulo-primario{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.texto-primario{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imagem-secundaria{
+    width: 400px;
+    transition: 1s;
+}
+.imagem-secundaria:active{
+    transform: rotate(360deg);
+
 }

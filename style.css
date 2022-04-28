@@ -92,3 +92,32 @@ body{
     transition: 0.5s;
     background: linear-gradient(90deg, rgb(0, 0, 0) 10%, rgb(255, 0, 0));
 }
+@media screen and (max-width: 480px){
+    .cabecalho{
+        display: inline-block;
+        padding: 10px 0;
+    }
+    .imagem-logo{
+        margin: 10px auto;
+        width: 30%;
+        display: block;
+    }
+    .lista-navegacao{
+        display: flex;
+        justify-content: center;
+        gap: 9px;
+    }
+    .itens-lista-navegacao{
+        font-size: 15px;
+        transition: 0.5s;
+        text-transform: uppercase;
+    }
+    .principal{
+        display: inline-block;
+        margin: 50px 10px;
+    }
+    .imagem-secundaria{
+        width: 350px;
+        transition: 0.5s;
+    }
+}

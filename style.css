@@ -60,10 +60,35 @@ body{
     justify-content: center;
 }
 .imagem-secundaria{
-    width: 400px;
+    width: 350px;
     transition: 1s;
 }
 .imagem-secundaria:active{
     transform: rotate(360deg);
-
+}
+.secundario{
+    margin: 50px 0;
+}
+.conteudo-botao{
+    width: 300px;
+    margin: 0 auto;
+}
+.botao{
+    font-family: 'Press Start 2P', cursive;
+    width: 100%;
+    padding: 15px 0;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background: gold;
+    transition: 0.5s;
+}
+.botao:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.botao:active{
+    transition: 0.5s;
+    background: linear-gradient(90deg, rgb(0, 0, 0) 10%, rgb(255, 0, 0));
 }
